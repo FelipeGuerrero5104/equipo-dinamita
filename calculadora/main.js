@@ -30,8 +30,15 @@ if (isNaN(numero1) || isNaN(numero2)) {
   let resultadoDivision = division(numero1, numero2);
   let resultadoMultiplicacion = multiplicacion(numero1, numero2);
 
-  alert(`Suma: ${resultadoSuma}
+  /* alert(`Suma: ${resultadoSuma}
 Resta: ${resultadoResta}
 División: ${resultadoDivision}
 Multiplicación: ${resultadoMultiplicacion}`);
+ */
+
+  document.getElementById("resultado-suma").textContent = resultadoSuma;
+  document.getElementById("resultado-resta").textContent = resultadoResta;
+  document.getElementById("resultado-multiplicacion").textContent =
+    resultadoMultiplicacion;
+  document.getElementById("resultado-division").textContent = resultadoDivision;
 }
