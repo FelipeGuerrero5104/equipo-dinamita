@@ -41,4 +41,8 @@ Multiplicación: ${resultadoMultiplicacion}`);
   document.getElementById("resultado-multiplicacion").textContent =
     resultadoMultiplicacion;
   document.getElementById("resultado-division").textContent = resultadoDivision;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> d17ec1585e61fd142f4a993a02e48561e1952ae5
