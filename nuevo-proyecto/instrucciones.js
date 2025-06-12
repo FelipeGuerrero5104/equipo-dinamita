@@ -29,3 +29,16 @@ const usuarios = [
   { id: 2, nombre: "Luis", rol: "editor", edad: 34 },
   { id: 3, nombre: "Carla", rol: "viewer", edad: 22 },
 ];
+
+prompt ("Ingrese una opcion: \n1. Mostrar usuarios \n2. Agregar usuario \n3. Actualizar usuario");
+function agregarUsuario(lista, nuevo) {
+  return [...lista, nuevo];
+}
+
+
+function mostrarUsuarios(lista) {
+  lista.forEach(({ nombre, rol }) => {
+    console.log(`Usuario: ${nombre}, Rol: ${rol}`);
+  });
+}
+mostrarUsuarios(usuarios);
